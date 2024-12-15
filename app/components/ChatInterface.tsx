@@ -24,7 +24,7 @@ export default function ChatInterface() {
 
     try {
 
-      const response = await fetch('http://localhost:4000/retrieve', { // Replace with your actual RAG API endpoint
+      const response = await fetch('https://storybook-m780.onrender.com/retrieve', { // Replace with your actual RAG API endpoint
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

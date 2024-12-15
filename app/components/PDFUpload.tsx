@@ -30,7 +30,7 @@ export default function PDFUpload() {
         formData.append('id', Date.now().toString()) // Keep the id as before
 
         try {
-          const response = await fetch('http://localhost:4000/upload', {
+          const response = await fetch('https://storybook-m780.onrender.com/upload', {
             method: 'POST',
             body: formData,
           })
